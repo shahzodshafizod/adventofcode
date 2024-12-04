@@ -13,5 +13,7 @@ func TestAdventofcode(t *testing.T) {
 	// assert.NoError(t, Day02Part1())
 	// assert.NoError(t, Day02Part2())
 	// assert.NoError(t, Day03Part1())
-	assert.NoError(t, Day03Part2())
+	// assert.NoError(t, Day03Part2())
+	assert.NoError(t, Day04Part1())
+	assert.NoError(t, Day04Part2())
 }

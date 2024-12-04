@@ -51,5 +51,5 @@ class Solution(unittest.TestCase):
             print("safe reports:", reports)
 
     def test(self) -> None:
-        # self.part1()
+        self.part1()
         self.part2()

@@ -40,5 +40,5 @@ class Solution(unittest.TestCase):
         print("similarity score:", score)
 
     def test(self) -> None:
-        # self.part1()
+        self.part1()
         self.part2()

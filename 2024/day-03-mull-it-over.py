@@ -16,8 +16,8 @@ class Solution(unittest.TestCase):
             numreg = re.compile("\\d{1,3}")
             for line in file:
                 for oper in pattern.findall(line):
-                    nums = list(map(int, numreg.findall(oper)))
-                    result += nums[0] * nums[1]
+                    first, second = map(int, numreg.findall(oper))
+                    result += first * second
             print("results of the multiplications:", result)
 
     def part2(self) -> None:
@@ -32,11 +32,11 @@ class Solution(unittest.TestCase):
                         enabled = True
                     elif oper == "don't()":
                         enabled = False
-                    elif oper.index("mul") == 0 and enabled:
-                        nums = list(map(int, numreg.findall(oper)))
-                        result += nums[0] * nums[1]
+                    elif enabled:
+                        first, second = map(int, numreg.findall(oper))
+                        result += first * second
             print("results of the multiplications:", result)
 
     def test(self) -> None:
-        # self.part1()
+        self.part1()
         self.part2()
