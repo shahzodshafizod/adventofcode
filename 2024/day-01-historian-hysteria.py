@@ -27,15 +27,15 @@ class Solution(unittest.TestCase):
 
     def part2(self) -> None:
         list1 = []
-        count2 = defaultdict(int)
+        freq2 = defaultdict(int)
         with open(self.filename, "r") as file:
             for line in file:
                 nums = line.split()
                 list1.append(int(nums[0]))
-                count2[int(nums[1])] += 1
+                freq2[int(nums[1])] += 1
         score = 0
         for num in list1:
-            similarity = num * count2[num]
+            similarity = num * freq2[num]
             score += similarity
         print("similarity score:", score)
 

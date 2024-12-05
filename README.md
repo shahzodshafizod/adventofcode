@@ -1,6 +1,7 @@
 | ## | Title | Date | Solutions
 | -- | ----- | ---- | ---------
-| 04 | [Ceres Search](https://adventofcode.com/2024/day/4) | 2024-12-04 | [Go](2024/day-04-ceres-search.go) [Python](2024/day-04-ceres-search.py)
-| 03 | [Mull It Over](https://adventofcode.com/2024/day/3) | 2024-12-03 | [Go](2024/day-03-mull-it-over.go) [Python](2024/day-03-mull-it-over.py)
-| 02 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2) | 2024-12-02 | [Go](2024/day-02-red-nosed-reports.go) [Python](2024/day-02-red-nosed-reports.py)
-| 01 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | 2024-12-01 | [Go](2024/day-01-historian-hysteria.go) [Python](2024/day-01-historian-hysteria.py)
+| 05 | [Print Queue](https://adventofcode.com/2024/day/5) | 2024-12-05 | [Python](./2024/day-05-print-queue.py)
+| 04 | [Ceres Search](https://adventofcode.com/2024/day/4) | 2024-12-04 | [Python](2024/day-04-ceres-search.py)
+| 03 | [Mull It Over](https://adventofcode.com/2024/day/3) | 2024-12-03 | [Python](2024/day-03-mull-it-over.py)
+| 02 | [Red-Nosed Reports](https://adventofcode.com/2024/day/2) | 2024-12-02 | [Python](2024/day-02-red-nosed-reports.py)
+| 01 | [Historian Hysteria](https://adventofcode.com/2024/day/1) | 2024-12-01 | [Python](2024/day-01-historian-hysteria.py)
