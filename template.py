@@ -15,9 +15,7 @@ class Solution(unittest.TestCase):
         print("result:")
 
     def part2(self) -> None:
-        with open(self.filename, "r") as file:
-            for line in file:
-                print(line)
+        pass
 
     def test(self) -> None:
         self.part1()
